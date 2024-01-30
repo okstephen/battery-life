@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 340px;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+nav .top-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+
+nav .top-bar .first-icon{
+    display: flex;
+    gap: 5px;
+}
+
+nav .top-bar .first-icon .icon-one iconify-icon {
+    font-size: 1rem;
+    color: #FF5B53;
+}
+
+nav .top-bar .first-icon .icon-two iconify-icon {
+    font-size: 1rem;
+    color: #FCB525;
+}
+
+nav .top-bar .first-icon .icon-three iconify-icon {
+    font-size: 1rem;
+    color: #DDDDDD;
+}
+
+nav .top-bar .second-icon{
+    display: flex;
+    gap: 10px;
+}
+
+nav .top-bar .second-icon .icon-four iconify-icon {
+    font-size: 1.5rem;
+}
+
+nav .top-bar .second-icon .icon-five iconify-icon {
+    font-size: 1.5rem;
+    color: #C9C9C9;
+}
+
+nav .top-bar .icon-h3 iconify-icon {
+    font-size: 1.5rem;
+    color: black;
+}
+
+nav .top-bar .icon-h3 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+nav .search-bar {
+    position: relative;
+}
+
+input[type="search"] {
+    border: 1px solid #ECECEC;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    outline: none;
+}
+
+nav .search-bar iconify-icon {
+    position: absolute;
+    left: 10%;
+    top: 15%;
+}
+
+nav .search-bar ::placeholder {
+    padding: 1px 30px;
+}
+
+#section-two .battery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#section-two .battery .battery-life {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #efefef;
+    width: 230px;
+}
+
+#section-two .battery .battery-life .btry-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+#section-two .battery .battery-life span {
+    height: auto;
+    width: auto;
+}
+
+#section-two .battery .battery-life .specs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    gap: 10px;
+}
+
+#section-two .battery .battery-life .specs div {
+    display: flex;
+    gap: 5px;
+    font-size: 1rem;
+}
+
+#section-two .battery .battery-settings {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #E8E8E8;
+    padding: 20px 15px;
+}
+
+#section-two .battery .battery-settings div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#section-two .battery .battery-settings div p {
+    font-size: 0.8rem;
+    color: #A7A7A7;
+}
+
+#section-two .battery .battery-settings .range {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+
+#section-two .battery .battery-settings .btry {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#section-two .battery .battery-settings #graphics {
+    border: 6px solid #FF5B53;
+    padding: 10px 20px 10px 0px;
+    margin-left: -7.5px;
+}
+
+#section-two .battery .battery-settings .btry p {
+    display: flex;
+    justify-content: center;
+    margin-left: 17px;
+    align-items: center;
+}
+
+#section-two .battery .battery-settings .restore {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 5px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+    
